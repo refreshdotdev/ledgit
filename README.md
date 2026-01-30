@@ -4,26 +4,29 @@ Export Claude Code sessions to the Agent Trajectory Interchange Format (ATIF) fo
 
 ## Installation
 
-### 1. Clone the repository
+Run this one-liner:
 
 ```bash
-git clone https://github.com/refreshdotdev/atif-exporter-plugin.git
-cd atif-exporter-plugin
+curl -fsSL https://raw.githubusercontent.com/refreshdotdev/atif-exporter-plugin/main/install.sh | bash
 ```
 
-### 2. Add to Claude Code settings
+**That's it!** Now just run `claude` normally from any directory.
 
-Add the plugin to your global Claude settings (`~/.claude/settings.json`):
+### Manual Installation
+
+If you prefer to install manually:
+
+```bash
+git clone https://github.com/refreshdotdev/atif-exporter-plugin.git ~/.claude/plugins/atif-exporter-plugin
+```
+
+Then add to `~/.claude/settings.json`:
 
 ```json
 {
-  "plugins": ["/path/to/atif-exporter-plugin"]
+  "plugins": ["~/.claude/plugins/atif-exporter-plugin"]
 }
 ```
-
-Replace `/path/to/atif-exporter-plugin` with the actual path where you cloned the repo.
-
-**That's it!** Now just run `claude` normally from any directory.
 
 ## How It Works
 
