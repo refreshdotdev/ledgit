@@ -1,6 +1,6 @@
 # ATIF Exporter Plugin for Claude Code
 
-Export Claude Code sessions to the Agent Trajectory Interchange Format (ATIF) for use with [Harbor](https://harbor.dev) and other trajectory analysis tools.
+Export Claude Code sessions to the Agent Trajectory Interchange Format (ATIF) for use with [Harbor](https://harborframework.com/) and other trajectory analysis tools.
 
 ## Installation
 
